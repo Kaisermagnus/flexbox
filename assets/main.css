@@ -1,0 +1,115 @@
+body,
+h1, h2, h3, p, span {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-rendering: auto;
+}
+
+h1,h2{
+  margin-bottom: 10px;
+}
+
+.main-header {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  width: auto;
+  padding: 20px 0 20px 0;
+}
+
+.main-content {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.main-h1 {
+  font-weight: 200;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-p {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.main-fld {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.fld-all {
+  margin: 20px 5px 0px 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.fld-property {
+  flex-grow: 1;
+}
+
+.fld-city {
+  flex-grow: 2;
+}
+
+.btn-search {
+  flex-grow: 1;
+}
+
+.summary {
+  text-align: center;
+  padding: 5px 0 5px 0;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 20px 20% 20px 20%;
+}
+
+.summary-content p {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.summary-content span {
+  font-weight: bold;
+}
+
+.results {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.side-a {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.filter-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.fld-filter {
+  
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.side-b {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.results-card {
+}
